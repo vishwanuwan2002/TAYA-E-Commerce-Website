@@ -1,0 +1,15 @@
+export { default as heroBanner } from './banner-1.webp';
+export { default as promoWomen } from './banner-2.webp';
+export { default as promoShoes } from './banner-3.webp';
+export { default as cardWomen } from './cards/women.jpg';
+export { default as cardMen } from './cards/men.jpg';
+export { default as cardNeutral } from './cards/neutral.jpg';
+export { default as productWomenFront } from './products/women-front.jpg';
+export { default as productWomenBack } from './products/women-back.jpg';
+export { default as productMenFront } from './products/men-front.jpg';
+export { default as productMenBack } from './products/men-back.jpg';
+export { default as productAccessoriesFront } from './products/accessories-front.jpg';
+export { default as productAccessoriesBack } from './products/accessories-back.jpg';
+export { default as productUnisexFront } from './products/unisex-front.jpg';
+export { default as productUnisexBack } from './products/unisex-back.jpg';
+export { default as accountImage } from './account.jpg';

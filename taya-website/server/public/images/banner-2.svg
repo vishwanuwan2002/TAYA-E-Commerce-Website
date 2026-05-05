@@ -1,0 +1,54 @@
+<svg width="1920" height="600" viewBox="0 0 1920 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#fef2f2;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#fee2e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="600" fill="url(#bgGradient2)"/>
+
+  <!-- Abstract shapes -->
+  <path d="M 0 300 Q 480 200 960 300 Q 1440 400 1920 300 L 1920 600 L 0 600 Z" fill="rgba(220, 38, 38, 0.05)"/>
+  <path d="M 0 400 Q 480 350 960 400 Q 1440 450 1920 400 L 1920 600 L 0 600 Z" fill="rgba(0, 0, 0, 0.03)"/>
+
+  <!-- Floating geometric elements -->
+  <rect x="150" y="120" width="40" height="40" fill="rgba(220, 38, 38, 0.1)" transform="rotate(15 170 140)"/>
+  <circle cx="1680" cy="180" r="35" fill="rgba(0, 0, 0, 0.08)"/>
+  <polygon points="450,80 480,50 510,80 480,110" fill="rgba(220, 38, 38, 0.15)"/>
+  <polygon points="1400,120 1430,90 1460,120 1430,150" fill="rgba(0, 0, 0, 0.06)"/>
+
+  <!-- Main content -->
+  <text x="960" y="250" font-family="Inter, sans-serif" font-size="56" font-weight="600" text-anchor="middle" fill="#000000">
+    Elevate Your Style
+  </text>
+
+  <text x="960" y="310" font-family="Inter, sans-serif" font-size="32" font-weight="400" text-anchor="middle" fill="url(#accentGradient)">
+    Premium Collection
+  </text>
+
+  <text x="960" y="350" font-family="Inter, sans-serif" font-size="20" font-weight="300" text-anchor="middle" fill="#4b5563">
+    Curated fashion for the modern individual
+  </text>
+
+  <!-- Decorative lines -->
+  <line x1="760" y1="380" x2="1160" y2="380" stroke="rgba(220, 38, 38, 0.3)" stroke-width="2"/>
+  <line x1="760" y1="390" x2="1160" y2="390" stroke="rgba(0, 0, 0, 0.2)" stroke-width="1"/>
+
+  <!-- Subtle pattern -->
+  <g opacity="0.1">
+    <circle cx="200" cy="500" r="2" fill="#dc2626"/>
+    <circle cx="250" cy="480" r="1.5" fill="#dc2626"/>
+    <circle cx="300" cy="520" r="2.5" fill="#dc2626"/>
+    <circle cx="1600" cy="450" r="2" fill="#000000"/>
+    <circle cx="1650" cy="470" r="1.5" fill="#000000"/>
+    <circle cx="1700" cy="430" r="2.5" fill="#000000"/>
+  </g>
+</svg>
